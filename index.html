@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html class="darker">
 
   <head>
     <script type="text/javascript" src="./index.js" defer=""></script>
     <link rel="stylesheet" href="./index.css">
   </head>
-
-  <body><img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="Imagem de uma bola de cristal">
-    <h1>Vou revelar o seu destino!</h1>
-    <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
-    <input type="text" placeholder="Digite sua pergunta">
-    <button>Fazer pergunta</button>
+  <body>
+    <div id="toggle-theme" class="toggle">
+      <h4 class="text-theme">Go Light!</h2>
+      <label class="switch">
+        <input type="checkbox" class="theme-toggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <div id="container">
+      <img src="https://gist.githubusercontent.com/maykbrito/0acdf4ce919838ffed50915a31fc5b23/raw/6f4dd01ec3116428ec4c99255944cb9ac7927590/cristal-ball.svg" alt="Imagem de uma bola de cristal">
+      <h1>Vou revelar o seu destino!</h1>
+      <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+      <input type="text" placeholder="Digite sua pergunta.">
+      <button>Fazer pergunta</button>
+    </div>
   </body>
 
 </html>
